@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Merriweather&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img{
+    height: 10rem;
+}
+input{
+    outline: none; 
+    color: #fff;
+}
+::placeholder{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+button{
+    background: transparent;
+    border: none;
+    color: red;
+    font-size: 2rem;
+}
+
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

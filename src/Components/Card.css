@@ -1,0 +1,55 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Merriweather&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+.card{
+    overflow: hidden;
+    background: transparent;
+
+}
+
+.card-body{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card-body p{
+    font-family: 'AR One Sans', sans-serif;
+    color: rgba(234, 234, 18, 0.826);
+}
+
+.card-body p span{
+    color: #fff;
+}
+
+
+.card:hover >img{
+    transform: scale(1.05);
+    transition: all ease .7s;
+}
+
+
+label{
+    display: inline-block;
+    background: #fff;
+    padding: .3rem;
+    border: none;
+    border-radius: .7rem;
+    cursor: pointer;
+}
+
+.more-less{
+    display: none;
+}
+
+#check:checked ~ .more-less{
+    display: block;
+    transition: all ease 1s;
+
+}
+
+#check:checked ~ label{
+    display: none;
+}
